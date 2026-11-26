@@ -1,0 +1,44 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Api/">
+    <Project Path="src/Api/OrderFlow.Api.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/Inventory/" />
+  <Folder Name="/src/Modules/Inventory/Application/">
+    <Project Path="src/Modules/Inventory/Application/OrderFlow.Inventory.Application.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Inventory/Domain/">
+    <Project Path="src/Modules/Inventory/Domain/OrderFlow.Inventory.Domain.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Inventory/Infrastructure/">
+    <Project Path="src/Modules/Inventory/Infrastructure/OrderFlow.Inventory.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Ordering/" />
+  <Folder Name="/src/Modules/Ordering/Application/">
+    <Project Path="src/Modules/Ordering/Application/OrderFlow.Ordering.Application.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Ordering/Domain/">
+    <Project Path="src/Modules/Ordering/Domain/OrderFlow.Ordering.Domain.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Ordering/Infrastructure/">
+    <Project Path="src/Modules/Ordering/Infrastructure/OrderFlow.Ordering.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Shared/" />
+  <Folder Name="/src/Shared/BuildingBlocks/">
+    <Project Path="src/Shared/BuildingBlocks/OrderFlow.BuildingBlocks.csproj" />
+  </Folder>
+  <Folder Name="/src/Worker/">
+    <Project Path="src/Worker/OrderFlow.Worker.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+  <Folder Name="/tests/ArchitectureTests/">
+    <Project Path="tests/ArchitectureTests/OrderFlow.ArchitectureTests.csproj" />
+  </Folder>
+  <Folder Name="/tests/IntegrationTests/">
+    <Project Path="tests/IntegrationTests/OrderFlow.IntegrationTests.csproj" />
+  </Folder>
+  <Folder Name="/tests/UnitTests/">
+    <Project Path="tests/UnitTests/OrderFlow.UnitTests.csproj" />
+  </Folder>
+</Solution>
